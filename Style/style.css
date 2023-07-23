@@ -1,0 +1,59 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #A0C49D;
+}
+
+/* Estilos para o cabeçalho h1 */
+h1 {
+    color: #333;
+}
+
+/* Estilos para os rótulos dos campos de entrada */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Estilos para os campos de entrada */
+input[type="number"],
+select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Estilos para o botão */
+button {
+    background-color: #C4D7B2;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para a div de resultado */
+#resultadoGorjeta {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #E1ECC8;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
